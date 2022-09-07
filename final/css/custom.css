@@ -1,0 +1,235 @@
+body {
+    font-family: "Courier New", Courier, monospace;
+    background-color: rgb(30,30,30);
+    color: white;
+    margin: auto;
+    padding: 4%;
+}
+
+a:visited {
+    color: white;
+}
+
+.about-me figure {
+    padding: 4%;
+    border: .02em solid white;
+}
+
+.activePage {
+    color: white;
+    border-bottom: .2em solid white;
+}
+
+h1 {
+    display: inline;
+    border: .02em solid white;
+    padding: 1%;
+    text-transform: uppercase;
+}
+
+header {
+    text-align: center;
+}
+
+.home figure {
+    padding: 4%;
+    border: .02em solid white;
+}
+
+input[type="submit"] {
+    width: 100%;
+    border: .1em solid white;
+    background: radial-gradient(grey, black);
+    color: white;
+    font-size: 2em;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+.formatting {
+    display: grid;
+    grid-template-areas: "header" "nav" "main" "footer"; 
+}
+
+.formatting header {
+    grid-area: header;
+}
+
+.formatting nav {
+    grid-area: nav;
+}
+
+.formatting main {
+    grid-area: main;
+}
+
+.formatting footer {
+    grid-area: footer;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 .25em;
+}
+
+.gallery-title {
+    flex: 100%;
+    max-width: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 175%;
+}
+
+.column {
+    flex: 20%;
+    max-width: 25%;
+    padding: 0 .25em;
+}
+
+.column h4 {
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.column img {
+    margin-top: .5em;
+    vertical-align: middle;
+    width: 100%;
+}
+
+.intro {
+    display: grid;
+    grid-template-columns: 25% 60% auto;
+    grid-template-rows: auto auto;
+    padding-bottom: 5%;
+    align-items: center;
+}
+
+.intro-img {
+    grid-row: 1 / span 2;
+}
+
+.intro-greet { 
+    font-size: 250%;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.intro-excerpt {
+    grid-column: 2 / 3;
+    background-color: rgba(255,255,255,0.25);
+    padding: 1%;
+}
+
+img {
+    max-width: 100%;
+}
+
+legend {
+    padding-top: 2%;
+}
+.feedback h2 {
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    border-bottom: .02em solid white;
+}
+
+form {
+    max-width: 80%;
+    margin: auto;
+    border: .02em solid white;
+}
+
+footer {
+    text-align: center;
+    font-size: small;
+}
+
+.contact label {
+    text-align: right;
+    width: 10%;
+    float: left;
+}
+
+nav {
+    text-align: center;
+    padding: 1%;
+    border: .02em solid white;
+    display: inline-block;
+    width: 100%;
+    margin: 5% auto;
+}
+
+nav a {
+    width: 20%;
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.portfolio h2 {
+    font-size: 200%;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.preview {
+    display: grid;
+    grid-template-areas: 
+        "message message message"
+        "flower sandwich cat";
+}
+
+.flower {
+    grid-row: 2/3;
+    grid-area: flower;
+}
+
+.sandwich {
+    grid-row: 2/3;
+    grid-area: sandwich;
+}
+
+.cat { 
+    grid-row: 2/3;
+    grid-area: cat;
+}
+
+.preview-message {
+    grid-area: message;
+}
+
+table {
+    border: .02em solid white;
+    border-collapse: collapse;
+    margin: 0% auto;
+    width: 80%;
+}
+
+td {
+    border: .02em solid white;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 200%;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+.textarea label {
+    display: block;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: indianred;
+}
